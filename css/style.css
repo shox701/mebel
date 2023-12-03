@@ -1,0 +1,311 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box ;
+}
+
+.container{
+    width: 1100px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.header{
+    color: white;
+    padding-top: 47px;
+    justify-content: center;
+}
+.nav{
+    display: inline-flex;
+}
+.nav__list{
+    list-style-type: none;
+    display: inline-flex;
+    align-items: center;
+    margin-left: 100px;
+    text-decoration: none;
+    margin-left: 250px;
+}
+.nav__item a{
+    color: #000;
+    font-family: 'Inter', sans-serif;                                            
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-decoration: none;
+    margin-left: 88px;
+}
+.hero{
+    height: 864px;
+    flex-shrink: 0;
+    background: rgba(181, 217, 210, 0.36);
+    margin-top: 15px;
+}
+.hero__list{
+    list-style-type: none;
+    padding-top: 287px;
+}
+.hero__item1{
+    color: #000;
+    font-family: 'Inter', sans-serif;                                            
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.hero__item h2{
+    color: rgba(0, 0, 0, 0.83);
+    font-family: 'Poppins', sans-serif;
+    font-size: 37px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.hero__item2{
+    margin-top: 2px;
+    width: 375px;
+    color: rgba(0, 0, 0, 0.85);
+    font-family: 'Inter', sans-serif;                                            
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.hero__itemb button{
+    color: #FFF;
+    font-family: 'Inter', sans-serif;                                            
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 168px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 35px;
+    background: #2A7361;
+    margin-top: 40px;
+}
+.mebel__vid{
+    margin-left: 450px;
+    margin-top: -400px;
+}
+.create__inner {
+    height: 364px;
+    width: 1350px;
+    margin-left: -122px;
+    flex-shrink: 0;
+    background: rgba(181, 217, 210, 0.36);
+    margin-top: 60px;
+}
+.create__title_text{
+    padding-top: 50px;
+    padding-left: 123px;
+}
+.create__title_text h2{
+    width: 370px;
+    color: #000;
+    font-family: 'Inter', sans-serif;      
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.create__title_text p{
+    width: 375px;
+    color: rgba(0, 0, 0, 0.85);
+    font-family: 'Inter', sans-serif;      
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    margin-top: 30px;
+}
+.create__title_text button{
+    color: #FFF;
+    font-family: 'Inter', sans-serif;                                            
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    width: 168px;
+    height: 48px;
+    flex-shrink: 0;
+    border-radius: 35px;
+    background: #2A7361;
+    margin-top: 40px;
+}
+
+.talented__list{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 650px;
+    margin-top: -250px;
+    list-style: none;
+    width: 700px;
+}
+
+.talented__item{
+    margin-left: -30px;
+    margin-top: -80px;
+    display: flex;
+    align-items: center;
+    flex-basis: calc(50% - 15px); /* Set each item to 50% width, considering margin */
+}
+
+.talented__item img{
+    margin-right: 10px;
+    width: 30px;
+    height: 28px;
+    flex-shrink: 0;
+}
+
+.talented__item h2{
+    margin-right: 10px;
+    white-space: nowrap; /* Prevent line break */
+    flex-shrink: 0;
+    color: #000;
+    font-family: 'Inter', sans-serif;      
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.talented__item p{
+    margin-top: 120px;
+    margin-left: -180px;
+    width: 273px;
+    height: 92px;
+    flex-shrink: 0;
+    color: rgba(0, 0, 0, 0.85);
+    font-family: 'Inter', sans-serif;      
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.collage__title{
+    color: #000;
+    font-family: Poppins;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 60px;
+    text-align: center;
+}
+.collage__text{
+    color: rgba(0, 0, 0, 0.85);
+    text-align: center;
+    font-family: 'Inter', sans-serif;      
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.collage {
+    display: flex;
+    margin: 20px;
+}
+
+.big-photo {
+    flex: 1;
+    max-width: 960px; /* Максимальная ширина 960px */
+    height: 500px; /* Высота 500px */
+    margin-bottom: -40px;
+    margin-top: 30px;
+}
+
+.small-photo {
+    flex: 0.5;
+    max-height: 248px; /* Максимальная высота 240px */
+    margin: 0 10px; /* Добавляем отступы между маленькими фото */
+    margin-top: 30px;
+}
+
+.collage img{
+    width: 100%; /* Растягиваем изображения на 100% от родительского контейнера */
+    height: 100%;
+    object-fit: cover; /* Заполняем контейнер без искажения пропорций */
+}
+
+
+.form{
+    margin-top: 130px;
+    background: #E4F1EF;
+    height: 800px;
+}
+label{
+    display: block;
+    margin-bottom: 5px;
+    margin-top: 30px;
+    color: #000;
+    font-family: 'Inter', sans-serif;      
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+input{
+    margin-top: 5px;
+}
+
+.form h2{
+    padding-top: 100px;
+
+}
+
+.form__list{
+    list-style-type: none;
+    margin-top: 100px;
+}
+.form__item input{
+    width: 580px;
+    height: 74px;
+    flex-shrink: 0;
+    border: 0.5px solid rgba(0, 0, 0, 0.20);
+    background: #FAFFFE;
+}
+.form__item1{
+    height: 262px;
+    flex-shrink: 0;
+    border: 0.5px solid rgba(0, 0, 0, 0.20);
+    background: #FAFFFE;
+}
+
+.mebel__gps{
+    margin-left: 600px;
+    margin-top: -900px;
+}
+
+.copyright{
+    background-color: #ffffff;
+    height: 100px;
+}
+
+.copyright__text{
+    color: #000;
+    text-align: center;
+    font-family: 'Inter', sans-serif;      
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: -90px;
+    margin-bottom: 38px;
+}
+
+.footer__box{
+    background: #E4F1EF;
+    text-align: end;
+    height: 150px;
+    margin-left: 1000px;
+    margin-top: 50px;
+
+    
+}
